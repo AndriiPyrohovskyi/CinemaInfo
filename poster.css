@@ -1,0 +1,65 @@
+.poster h1 {
+    background: linear-gradient(90deg, #ff4d00, #ff9900);
+    color: white;
+    padding: 15px 0;
+    margin: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align: center;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.poster p {
+    background-color: #262626;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 0;
+}
+.poster {
+    transition: transform 0.3s ease;
+}
+
+.poster:hover {
+    transform: scale(1.03);
+}
+@media screen and (max-width: 2500px) {
+    .poster {
+        height: 70%;
+        border: #dddddd 5px solid;
+        border-radius: 45px;
+        width: 20%;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .poster {
+        height: 70%;
+        border: #dddddd 5px solid;
+        border-radius: 45px;
+        width: 30%;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .poster {
+        height: 70%;
+        border: #dddddd 5px solid;
+        border-radius: 45px;
+        width: 40%;
+        margin: 20px;
+        text-align: center;
+    }
+}
