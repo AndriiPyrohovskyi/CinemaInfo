@@ -2,7 +2,8 @@
 @import "poster.css";
 @import "article.css";
 @import "footer.css";
-body {
+@import "ratings.css";
+body{
     min-width: 820px;
     margin: 94px 0 0;
     background: linear-gradient(135deg, #1a1a1a, #343434);
@@ -13,6 +14,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
 }
 .welcome {
     position: relative;
