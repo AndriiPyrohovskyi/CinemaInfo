@@ -9,7 +9,7 @@
 }
 
 .article:hover {
-    background-color: #343434;
+    background-color: rgba(100, 68, 46, 0.51);
 }
 
 .article img {
