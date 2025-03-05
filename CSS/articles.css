@@ -23,20 +23,30 @@
 }
 
 .article-item h2 {
-    font-size: 32px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
     color: orange;
     margin-bottom: 20px;
 }
 
 .article-item h3 {
-    font-size: 26px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
     color: #ffcc80;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 .article-item p {
-    font-size: 22px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
     line-height: 1.8;
     margin-bottom: 15px;
 }
