@@ -7,11 +7,9 @@
     text-align: center;
     transition: background-color 0.4s ease;
 }
-
 .article:hover {
     background-color: rgba(100, 68, 46, 0.51);
 }
-
 .article img {
     padding: 10px;
     background-color: rgb(255, 77, 0);
@@ -38,7 +36,6 @@
     text-align: left;
     color: #ffffff;
 }
-
 @media screen and (max-width: 2500px) {
     .article {
         height: 70%;
@@ -51,7 +48,6 @@
         transition: background-color 0.4s ease;
     }
 }
-
 @media screen and (max-width: 1400px) {
     .article {
         height: 70%;
@@ -64,8 +60,6 @@
         transition: background-color 0.4s ease;
     }
 }
-
-
 @media screen and (max-width: 1000px) {
     .article {
         height: 70%;
@@ -76,5 +70,19 @@
         margin: 20px;
         text-align: center;
         transition: background-color 0.4s ease;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .article {
+        width: 90%;
+    }
+    .article h1 {
+        font-size: 20px;
+    }
+    .article h2 {
+        font-size: 18px;
+    }
+    .article p {
+        font-size: 16px;
     }
 }

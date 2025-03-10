@@ -10,26 +10,32 @@
     align-items: center;
     z-index: 1000;
 }
-.logo img{
+
+.logo img {
     width: 100px;
     height: 100px;
 }
-.topbar p{
+
+.topbar p {
     margin-left: 20px;
     margin-right: 20px;
 }
-.topbar a{
+
+.topbar a {
     color: darkorange;
     font-size: 28px;
     text-decoration: none;
     position: relative;
 }
-.topbar a:hover{
+
+.topbar a:hover {
     color: white;
 }
+
 .topbar a:hover::after {
     width: 100%;
 }
+
 .topbar a::after {
     content: "";
     position: absolute;
@@ -40,12 +46,74 @@
     background-color: white;
     transition: width 0.3s ease-in-out;
 }
-.topbar .current{
+
+.topbar .current {
     color: white;
 }
-.topbar .current:hover{
-    color: #FFFFFF;
+
+.topbar .current:hover {
+    color: #ffffff;
 }
+
 .topbar .current:hover::after {
     width: 0;
 }
+
+#menu-toggle {
+    display: none;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 36px;
+    color: darkorange;
+    margin-left: auto;
+}
+
+.burger-label {
+    display: none;
+    cursor: pointer;
+    font-size: 36px;
+    color: darkorange;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .burger-label {
+        display: block;
+        cursor: pointer;
+        font-size: 36px;
+        color: darkorange;
+        margin-left: auto;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 94px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.9);
+        width: 200px;
+        border-left: 2px solid darkorange;
+        padding: 20px;
+    }
+
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+}
+

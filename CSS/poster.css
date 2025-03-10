@@ -7,13 +7,11 @@
     border-top-right-radius: 40px;
     text-align: center;
 }
-
 .poster img {
     width: 100%;
     height: auto;
     display: block;
 }
-
 .poster p {
     background-color: #262626;
     color: white;
@@ -26,7 +24,6 @@
 .poster {
     transition: transform 0.3s ease;
 }
-
 .poster:hover {
     transform: scale(1.03);
 }
@@ -40,7 +37,6 @@
         text-align: center;
     }
 }
-
 @media screen and (max-width: 1400px) {
     .poster {
         height: 70%;
@@ -51,8 +47,6 @@
         text-align: center;
     }
 }
-
-
 @media screen and (max-width: 1000px) {
     .poster {
         height: 70%;
@@ -61,5 +55,16 @@
         width: 40%;
         margin: 20px;
         text-align: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .poster h1 {
+        font-size: 20px;
+    }
+    .poster p {
+        font-size: 16px;
+    }
+    .poster {
+        width: 80%;
     }
 }

@@ -9,19 +9,16 @@
     box-shadow: 0 6px 20px rgba(255, 102, 0, 0.3);
     backdrop-filter: blur(5px);
 }
-
 .article-item {
     margin-bottom: 60px;
     padding-bottom: 40px;
     border-bottom: 2px solid rgba(255, 102, 0, 0.5);
 }
-
 .article-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
 .article-item h2 {
     font-family: "Play", sans-serif;
     font-weight: 700;
@@ -30,7 +27,6 @@
     color: orange;
     margin-bottom: 20px;
 }
-
 .article-item h3 {
     font-family: "Play", sans-serif;
     font-weight: 700;
@@ -40,7 +36,6 @@
     margin-top: 30px;
     margin-bottom: 15px;
 }
-
 .article-item p {
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
@@ -50,7 +45,6 @@
     line-height: 1.8;
     margin-bottom: 15px;
 }
-
 .article-image {
     display: block;
     max-width: 100%;
@@ -58,4 +52,20 @@
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(255, 102, 0, 0.3);
+}
+@media screen and (max-width: 1000px) {
+    .articles-page {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .article-item h2 {
+        font-size: 24px;
+    }
+    .article-item h3 {
+        font-size: 20px;
+    }
+    .article-item p {
+        font-size: 16px;
+    }
 }
