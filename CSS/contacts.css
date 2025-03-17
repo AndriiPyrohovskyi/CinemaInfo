@@ -169,8 +169,11 @@ h1, h2 {
         margin: 20px auto;
         padding: 20px;
     }
+    a {
+        font-size: 20px;
+    }
     h1, h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .contact-item {
         width: 80%;
@@ -196,5 +199,48 @@ h1, h2 {
     .form-group input,
     .form-group textarea {
         width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .contact-page {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    h1, h2 {
+        font-size: 14px;
+    }
+    a {
+        font-size: 14px;
+    }
+    .contact-item {
+        padding: 5px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .contact-item i {
+        font-size: 14px;
+    }
+    .contact-item p {
+        font-size: 10px;
+    }
+    .office-location p {
+        font-size: 12px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-group label {
+        width: 100%;
+        text-align: left;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 3px;
     }
 }

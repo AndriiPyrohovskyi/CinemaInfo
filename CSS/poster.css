@@ -48,6 +48,12 @@
     }
 }
 @media screen and (max-width: 1000px) {
+    .poster h1 {
+        font-size: 16px;
+    }
+    .poster p {
+        font-size: 12px;
+    }
     .poster {
         height: 70%;
         border: #dddddd 5px solid;
@@ -57,12 +63,12 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     .poster h1 {
-        font-size: 20px;
+        font-size: 14px;
     }
     .poster p {
-        font-size: 16px;
+        font-size: 10px;
     }
     .poster {
         width: 80%;

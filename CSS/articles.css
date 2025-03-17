@@ -41,7 +41,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.8;
     margin-bottom: 15px;
 }
@@ -60,12 +60,29 @@
         padding: 20px;
     }
     .article-item h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
     .article-item h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .article-item p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .articles-page {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .article-item h2 {
+        font-size: 16px;
+    }
+    .article-item h3 {
+        font-size: 14px;
+    }
+    .article-item p {
+        font-size: 12px;
     }
 }

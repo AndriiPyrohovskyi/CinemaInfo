@@ -42,7 +42,21 @@
     }
     .footer p,
     .footer a {
+        font-size: 18px;
         margin: 10px 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .footer p,
+    .footer a {
+        margin: 10px 0;
+        font-size: 14px;
         text-align: center;
     }
 }
